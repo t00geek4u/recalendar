@@ -8,7 +8,6 @@ services:
     hostname: recalendar.me
     image: t00geek/recalendar.me:1.0
     ipc: private
-    network_mode: bridge
     ports:
       - 3000:3000/tcp
     stdin_open: true
