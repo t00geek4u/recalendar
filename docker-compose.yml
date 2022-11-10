@@ -1,5 +1,4 @@
 version: "3"
-
 services:
   recalendar.me:
     command: [ "bash", "init.sh" ]
